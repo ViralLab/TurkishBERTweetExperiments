@@ -256,7 +256,6 @@ def main(config):
         tokenizer.pad_token_id = tokenizer.eos_token_id
 
     experiment_folder_path = get_experiment_folder_path(config)
-    print(experiment_folder_path)
     n_fold = get_n_fold(config)
 
     for fold in range(n_fold):
