@@ -1,0 +1,25 @@
+{
+    "model_name": "TurkishBERTweetLora10fold",
+    "task_name": "TASK_NAME: HS OR SA",
+    "data_path": "DS_PATH",
+    "pretrained_model_path": "VRLLab/TurkishBERTweet",
+    "tokenizer_path": "VRLLab/TurkishBERTweet",
+    "from_flax": false,
+    "learning_rate": 3e-4,
+    "weight_decay": 0.001,
+    "epochs": 10,
+    "train_batch_size": 32,
+    "test_batch_size": 16,
+    "early_stop_patience": 5,
+    "early_stop_min_delta": 0.2,
+    "input_len": 128,
+    "task_type": "SEQ_CLS",
+    "inference_mode": false,
+    "target_modules": [
+        "query",
+        "value"
+    ],
+    "r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1
+}
