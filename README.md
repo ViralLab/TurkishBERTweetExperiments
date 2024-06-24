@@ -1,9 +1,13 @@
 # TurkishBERTweetExperiments
 
-This repo contains experiment scripts and configs that were used in ***TurkishBERTweet: Fast and Reliable Large Language Model for Social Media Analysis*** paper.
+## This repo contains experiment scripts and configs that were used in ***TurkishBERTweet: Fast and Reliable Large Language Model for Social Media Analysis*** paper.
+<hr></hr>
 
+### The names of the directories align with the names used in the paper. Config files contain information about the hyperparameters that we used while finetuning.
 
-### The namings of directories align with the namings in the experiment folders in the paper. 
+### The prompts are applied beforehand, and you can find the prompt structures in the paper. If you want to use your own dataset for finetuning, you need to preprocess the data and then use the scripts.
+
+### There are a certain number of libraries that need to be installed in your virtual environment before running the scripts. You can find the ```requirements.txt``` file in the repo.
 
 
 # <a name="citation"></a> Citation
