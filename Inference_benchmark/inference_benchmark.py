@@ -30,11 +30,8 @@ index = 13
 number_of_samples = [2**i for i in range(index)][::-1]
 MAX_NUMBER_OF_SAMPLES = number_of_samples[0]
 
-# BERT-BASED 11
-# google/mt5-large => 7
-# TURNA => 6
-# LLAMA3=> 4
-BEST_BATCH_SIZE = 2**4
+POSSIBLE_INDEX = 6
+BEST_BATCH_SIZE = 2**POSSIBLE_INDEX
 DEVICE = "cuda:0"
 
 
