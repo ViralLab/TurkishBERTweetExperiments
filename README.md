@@ -12,10 +12,12 @@
 
 # <a name="citation"></a> Citation
 ```bibtex
-@article{najafi2023turkishbertweet,
-  title={TurkishBERTweet: Fast and Reliable Large Language Model for Social Media Analysis},
+@article{najafi2024turkishbertweet,
+  title={Turkishbertweet: Fast and reliable large language model for social media analysis},
   author={Najafi, Ali and Varol, Onur},
-  journal={arXiv preprint arXiv:2311.18063},
-  year={2023}
+  journal={Expert Systems with Applications},
+  pages={124737},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
